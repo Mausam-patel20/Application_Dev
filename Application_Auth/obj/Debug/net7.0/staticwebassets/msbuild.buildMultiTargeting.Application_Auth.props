@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Application_Auth.props" />
+</Project>

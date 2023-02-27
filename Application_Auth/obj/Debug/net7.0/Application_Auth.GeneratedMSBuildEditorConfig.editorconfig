@@ -1,0 +1,149 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Application_Auth
+build_property.RootNamespace = Application_Auth
+build_property.ProjectDir = /Users/mosampatel/Projects/Application/Application_Auth/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/mosampatel/Projects/Application/Application_Auth
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9BY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Account/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9Mb2dpbi9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Account/Logout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9Mb2dvdXQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Account/Logout/LoggedOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9Mb2dvdXQvTG9nZ2VkT3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Ciba/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2liYS9BbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Ciba/Consent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2liYS9Db25zZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Ciba/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2liYS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Ciba/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2liYS9fU2NvcGVMaXN0SXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Consent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29uc2VudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Consent/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29uc2VudC9fU2NvcGVMaXN0SXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Device/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV2aWNlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Device/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV2aWNlL1N1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Device/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV2aWNlL19TY29wZUxpc3RJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Diagnostics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGlhZ25vc3RpY3MvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/ExternalLogin/Callback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXh0ZXJuYWxMb2dpbi9DYWxsYmFjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/ExternalLogin/Challenge.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXh0ZXJuYWxMb2dpbi9DaGFsbGVuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Grants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JhbnRzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Home/Error/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS9FcnJvci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Redirect/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVkaXJlY3QvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/ServerSideSessions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VydmVyU2lkZVNlc3Npb25zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Shared/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19OYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/Shared/_ValidationSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU3VtbWFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mosampatel/Projects/Application/Application_Auth/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7s6e1cdc8b
