@@ -15,6 +15,7 @@
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
     <None Remove="Data\" />
+    <None Remove="IDbInitializer\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Duende.IdentityServer.AspNetIdentity" Version="6.2.3" />
@@ -28,5 +29,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="IDbInitializer\" />
   </ItemGroup>
 </Project>

@@ -1,5 +1,9 @@
-﻿using Application_Auth.Data;
+﻿using Application_Auth;
+using Application_Auth.Data;
+using Application_Auth.IDbInitializer;
 using Application_Auth.Models;
+using Duende.IdentityServer.AspNetIdentity;
+using Duende.IdentityServer.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,6 +19,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
 
+builder.Services.AddScoped<IDbInitializer, DbInitializer>();
+
 builder.Services.AddRazorPages();
 
 builder.Services.AddIdentityServer(options =>
@@ -24,7 +30,13 @@ builder.Services.AddIdentityServer(options =>
     options.Events.RaiseFailureEvents = true;
     options.Events.RaiseSuccessEvents = true;
     options.EmitStaticAudienceClaim = true;
-});
+}).AddInMemoryIdentityResources(SD.IdentityResources)
+.AddInMemoryApiScopes(SD.ApiScopes)
+.AddInMemoryClients(SD.Cleints).AddAspNetIdentity<ApplicationUser>()
+.AddDeveloperSigningCredential()
+.AddProfileService<ProfileService>();
+
+builder.Services.AddScoped<IProfileService, ProfileService>();
 
 var app = builder.Build();
 
@@ -40,6 +52,8 @@ app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 
+SeedDatabase();
+
 app.UseRouting();
 
 app.UseIdentityServer();
@@ -54,3 +68,11 @@ app.MapControllerRoute(
 
 app.Run();
 
+void SeedDatabase()
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        var dbInitializer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+        dbInitializer.Initialize();
+    }
+}
