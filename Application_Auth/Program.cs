@@ -32,9 +32,15 @@ builder.Services.AddIdentityServer(options =>
     options.EmitStaticAudienceClaim = true;
 }).AddInMemoryIdentityResources(SD.IdentityResources)
 .AddInMemoryApiScopes(SD.ApiScopes)
-.AddInMemoryClients(SD.Cleints).AddAspNetIdentity<ApplicationUser>()
+.AddInMemoryClients(SD.Clients)
+.AddAspNetIdentity<ApplicationUser>()
 .AddDeveloperSigningCredential()
-.AddProfileService<ProfileService>();
+.AddProfileService<ProfileService>()
+.AddServerSideSessions();
+
+builder.Services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader()));
 
 builder.Services.AddScoped<IProfileService, ProfileService>();
 
@@ -47,6 +53,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 

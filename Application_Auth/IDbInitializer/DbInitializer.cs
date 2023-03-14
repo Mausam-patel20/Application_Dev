@@ -31,7 +31,7 @@ namespace Application_Auth.IDbInitializer
 
             ApplicationUser adminUser = new()
             {
-                UserName = "admin1@gmail.com",
+                UserName = "admin",
                 Email = "admin1@gmail.com",
                 EmailConfirmed = true,
                 PhoneNumber = "111111111111",

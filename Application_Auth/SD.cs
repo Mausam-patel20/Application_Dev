@@ -29,7 +29,7 @@ namespace Application_Auth
                 new ApiScope(name: "delete", displayName: "Delete your data.")
             };
 
-        public static IEnumerable<Client> Cleints =>
+        public static IEnumerable<Client> Clients =>
             new List<Client>
             {
                 new Client
@@ -39,19 +39,20 @@ namespace Application_Auth
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     AllowedScopes = { "api1", "api2.read_only" }
                 },
-                new Client
-                {
-                    ClientId = "magic",
-                    ClientSecrets = { new Secret("secret".Sha256()) },
-                    AllowedGrantTypes = GrantTypes.Code,
-                    AllowedScopes = { "magic",
+                new Client {
+                    RequireConsent = false,
+                    ClientId = "angular_spa",
+                    ClientName = "Angular SPA",
+                    AllowedGrantTypes = GrantTypes.Implicit,
+                    AllowedScopes = {
                         IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,
-                        IdentityServerConstants.StandardScopes.Email,
-                        JwtClaimTypes.Role
-                    },
-                    RedirectUris={ "https://localhost:7160/signin-oidc" },
-                    PostLogoutRedirectUris={"https://localhost:7160/signout-callback-oidc" },
+                        IdentityServerConstants.StandardScopes.Email },
+                    RedirectUris = {"https://localhost:44447/auth-callback"},
+                    PostLogoutRedirectUris = {"https://localhost:44447/"},
+                    AllowedCorsOrigins = {"https://localhost:44447"},
+                    AllowAccessTokensViaBrowser = true,
+                    AccessTokenLifetime = 3600
                 }
             };
 	}
